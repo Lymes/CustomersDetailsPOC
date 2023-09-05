@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "car-accident.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

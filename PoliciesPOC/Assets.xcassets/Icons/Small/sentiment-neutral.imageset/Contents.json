@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "sentiment-neutral.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

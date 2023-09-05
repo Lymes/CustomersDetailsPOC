@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "broken-window.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

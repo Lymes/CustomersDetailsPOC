@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "speak-text-o.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

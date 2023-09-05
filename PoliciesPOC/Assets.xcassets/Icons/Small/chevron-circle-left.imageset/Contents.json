@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "chevron-circle-left.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

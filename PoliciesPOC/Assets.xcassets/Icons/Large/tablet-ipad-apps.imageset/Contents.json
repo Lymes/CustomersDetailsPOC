@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "tablet-ipad-apps.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

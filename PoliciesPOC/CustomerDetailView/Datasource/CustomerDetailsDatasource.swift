@@ -16,12 +16,12 @@ typealias CustomerDetailsSnapshot = NSDiffableDataSourceSectionSnapshot<Customer
 final class CustomerDetailsDatasource: UICollectionViewDiffableDataSource<Int, CustomerTreeItem> {
 
     // MARK: Static helper
-    static let cellRegistration: [CustomerTreeItemType: UICollectionView.CellRegistration<CustomerDetailsCell, CustomerTreeItem>] = [
+    private static let cellRegistration: [CustomerTreeItemType: UICollectionView.CellRegistration<CustomerDetailsCell, CustomerTreeItem>] = [
         .customer: CustomerDetailsContentConfiguration.registration(),
         .policy: PolicyDetailsContentConfiguration.registration()
     ]
 
-    weak var delegate: CustomerDetailsDelegate?
+    private weak var delegate: CustomerDetailsDelegate?
 
     init(_ collectionView: UICollectionView, delegate: CustomerDetailsDelegate?) {
         collectionView.isPrefetchingEnabled = false

@@ -26,7 +26,7 @@ final class CustomerDetailsCellView: UIView, UIContentView {
     // MARK: Private properties
     private var subscriptions = Set<AnyCancellable>()
     private var currentConfiguration: CustomerDetailsContentConfiguration!
-    private var viewModel: CustomerDetailsModel? { return currentConfiguration.viewModel }
+    private weak var viewModel: CustomerDetailsModel? { return currentConfiguration.viewModel }
 
     // MARK: Public properties
     var state: UICellConfigurationState = UICellConfigurationState(traitCollection: .current)
@@ -73,7 +73,7 @@ final class CustomerDetailsCellView: UIView, UIContentView {
     }
 
     private func setStyle() {
-        titleLabel.font           = FontFamily.AllianzNeo.bold.font(size: 20)
+        titleLabel.font           = FontFamily.AllianzNeo.semiBold.font(size: 16)
         titleLabel.textColor      = Asset.Colors.Grayscale.gray353535.color
         counterLabel.font         = FontFamily.AllianzNeo.regular.font(size: 14)
         counterLabel.textColor    = Asset.Colors.Grayscale.gray353535.color
@@ -85,10 +85,12 @@ final class CustomerDetailsCellView: UIView, UIContentView {
         aumValueLabel.textColor   = Asset.Colors.grey3C3C3C.color
         policiesLabel.font        = FontFamily.AllianzNeo.semiBold.font(size: 16)
         policiesLabel.textColor   = Asset.Colors.Grayscale.gray353535.color
+        removeButton.tintColor    = Asset.Colors.LoB.blue007AB3.color
         policiesValueLabel.font       = FontFamily.AllianzNeo.regular.font(size: 16)
         policiesValueLabel.textColor  = Asset.Colors.grey3C3C3C.color
         separatorView.backgroundColor = Asset.Colors.greyC8C8C8.color
-        removeButton.tintColor    = Asset.Colors.LoB.blue007AB3.color
+        colorView.layer.cornerRadius  = 2.0
+        colorView.layer.masksToBounds = true
     }
 
     private func setLabels() {

@@ -24,7 +24,7 @@ final class PolicyDetailsCellView: UIView, UIContentView {
     // MARK: Private properties
     private var subscriptions = Set<AnyCancellable>()
     private var currentConfiguration: PolicyDetailsContentConfiguration!
-    private var viewModel: PolicyDetailsModel? { return currentConfiguration.viewModel }
+    private weak var viewModel: PolicyDetailsModel? { return currentConfiguration.viewModel }
 
     // MARK: Public properties
     var state: UICellConfigurationState = UICellConfigurationState(traitCollection: .current)

@@ -7,6 +7,7 @@
 
 import UIKit
 
+// TODO: move all labels to Localizable.strings
 extension CustomerDetailsModel {
     var backColor: UIColor         { UIColor.hexStringToUIColor(color) }
     var nameText: String           { name }

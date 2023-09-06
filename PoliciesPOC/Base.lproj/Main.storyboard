@@ -19,23 +19,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LWE-Xv-mGa" customClass="CustomerDetailsView" customModule="PoliciesPOC" customModuleProvider="target">
-                                <rect key="frame" x="726" y="70" width="600" height="904"/>
+                                <rect key="frame" x="876" y="70" width="450" height="904"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dettaglio Cliente" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A46-cJ-jxX">
-                                        <rect key="frame" x="237" y="14" width="126.5" height="20.5"/>
+                                        <rect key="frame" x="162" y="14" width="126.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OVr-5c-Q4J">
-                                        <rect key="frame" x="0.0" y="48.5" width="600" height="1"/>
+                                        <rect key="frame" x="0.0" y="48.5" width="450" height="1"/>
                                         <color key="backgroundColor" systemColor="systemGray3Color"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="FUD-v7-J6Q"/>
                                         </constraints>
                                     </view>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="sCK-7R-kKm">
-                                        <rect key="frame" x="8" y="57.5" width="584" height="789.5"/>
+                                        <rect key="frame" x="8" y="57.5" width="434" height="789.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="eUO-z9-s4v">
                                             <size key="itemSize" width="128" height="128"/>
@@ -46,7 +46,7 @@
                                         <cells/>
                                     </collectionView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="tkk-Ij-6uc">
-                                        <rect key="frame" x="8" y="864" width="584" height="32"/>
+                                        <rect key="frame" x="8" y="864" width="434" height="32"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ep-xH-HAD">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="32"/>
@@ -60,7 +60,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S3v-G0-f49">
-                                                <rect key="frame" x="464" y="0.0" width="120" height="32"/>
+                                                <rect key="frame" x="314" y="0.0" width="120" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="5Jo-IB-xWW"/>
                                                 </constraints>
@@ -76,7 +76,7 @@
                                         </constraints>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3sZ-RU-LZs">
-                                        <rect key="frame" x="0.0" y="855" width="600" height="1"/>
+                                        <rect key="frame" x="0.0" y="855" width="450" height="1"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="6VU-RA-1KC"/>
@@ -100,7 +100,7 @@
                                     <constraint firstItem="3sZ-RU-LZs" firstAttribute="leading" secondItem="LWE-Xv-mGa" secondAttribute="leading" id="jbX-gh-34R"/>
                                     <constraint firstItem="OVr-5c-Q4J" firstAttribute="leading" secondItem="LWE-Xv-mGa" secondAttribute="leading" id="rFA-TB-xmo"/>
                                     <constraint firstItem="OVr-5c-Q4J" firstAttribute="top" secondItem="A46-cJ-jxX" secondAttribute="bottom" constant="14" id="uRA-yc-lVQ"/>
-                                    <constraint firstAttribute="width" constant="600" id="vkU-0l-OtY"/>
+                                    <constraint firstAttribute="width" constant="450" id="vkU-0l-OtY"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="cancelButton" destination="0Ep-xH-HAD" id="Klb-El-UvD"/>

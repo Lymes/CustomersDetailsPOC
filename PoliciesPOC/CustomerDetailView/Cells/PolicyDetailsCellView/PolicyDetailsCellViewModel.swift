@@ -7,6 +7,7 @@
 
 import Foundation
 
+// TODO: move all labels to Localizable.strings
 extension PolicyDetailsModel {
     var titleText: String           { "Polizza \(policyId)" }
     var dateLabelText: String       { "Ultima modifica" }
